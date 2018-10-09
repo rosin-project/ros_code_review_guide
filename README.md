@@ -12,7 +12,8 @@ Code review is not an exact science or prescription. It is a subjective examinat
 3. Modularity is an important feature to look for. It facilitates maintainability and ease of read. Is the contribution modular?
 4. New features fit within the actual architecture.
 ### Legibility:
-1. Is the code readability (the quality of reading and understanding the code) reasonably good? Use your code reading experience to judge the contribution readability. Ask yourself, can I understand what the code does by reading it?
+1. Is the code readability (the quality of reading and understanding the code) reasonably good? Use your code reading experience to judge the contribution readability. Ask yourself, can I understand what the code does by reading it? (i.e. [Developer Guide](https://github.com/ros2/ros2/wiki/Developer-Guide), [
+ROS C++ Style Guide](http://wiki.ros.org/CppStyleGuide#Classes_.2BAC8_Types))
 2. Consistency of the code style, naming conventions, but most importantly, consistency in architecture. I.e. Do the names (of fields, variables, parameters, methods and classes) actually reflect the concepts they represent?
 3. Is the code sufficiently documented? Do you believe that the code is supported by adequate comments to enhance its readability and understanding? Use your own judgement and experience to assess the comments/code ratio.
 ### Maintainability:
